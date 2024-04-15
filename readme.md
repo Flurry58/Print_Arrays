@@ -1,19 +1,26 @@
-Using it to print 1d arrays:
+## Using it to print 1d arrays:
 
-print_array<type>(newarr, length); //can change char to any type
+`print_array<type>(newarr, length);`
 
-Using it for 2d arrays:
 
-print_2darray<type, rows, cols>(my2darray); //have to enter amount of rows and columns
+## Using it for 2d arrays:
 
-Using it to print a string by splitting it via a delimeter:
-             string       char
-print_string(my_string, delim_char)
+`print_2darray<type, rows, cols>(my2darray);` 
 
-Using it for 1d vectors:
+*you have to enter the amount of rows and columns*
 
-print_vector<type>(myvector)
+## Using it to print a string by splitting it via a delimeter:
 
-Using it for 2d vectors:
+**Data Type**:
+`print_string(std::string, char)`
 
-print_2dvector<type>(my2dvector)
+**Example**:
+`print_string(my_string, delim_char)`
+
+## Using it for 1d vectors:
+
+`print_vector<type>(myvector)`
+
+## Using it for 2d vectors:
+
+`print_2dvector<type>(my2dvector)`

@@ -1,3 +1,6 @@
+##This is a very simple program to make printing arrays and vectors for debugging in c++ easier. It also has an extra feature of being able to parse strings by a delimeter as well similar to stringstream. 
+
+
 ## Using it to print 1d arrays:
 
 `print_array<type>(newarr, length);`
